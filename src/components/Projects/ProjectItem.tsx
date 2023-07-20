@@ -12,9 +12,21 @@ interface ProjectProps {
 export default function ProjectItem({ index, title, url, role }: ProjectProps) {
   return (
     <motion.div
-      initial={{ scale: 0.8, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      transition={{ duration: 0.6, delay: index / 10 }}
+      // initial={{ scale: 0.8, opacity: 0 }}
+      // animate={{ scale: 1, opacity: 1 }}
+      // transition={{ duration: 0.6, delay: index / 10 }}
+      initial="hidden"
+      whileInView={'visible'}
+      variants={{
+        visible: {
+          y: 0,
+          opacity: 1,
+          transition: {
+            type: 'spring',
+          },
+        },
+        hidden: { opacity: 1, y: 80 },
+      }}
     >
       <div className="border-b-black-900 flex flex-col items-start space-y-4 border-b-2 pb-16 transition-all hover:-translate-x-3 hover:scale-110 dark:border-b-white md:flex-row md:justify-between md:space-x-8 md:space-y-0">
         <div className="md:w-1/2">

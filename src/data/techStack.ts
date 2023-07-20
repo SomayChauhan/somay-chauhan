@@ -1,69 +1,85 @@
 export const techStack: { [key: string]: { name: string; link?: string }[] } = {
   frontend: [
-    { name: 'TypeScript', link: '/static/images/project/techStack/brand-aws.svg' },
+    {
+      name: 'TypeScript',
+
+      link: '/static/images/project/techStack/brand-typescript.svg',
+    },
     {
       name: 'HTML',
-      link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+      link: '/static/images/project/techStack/brand-html5.svg',
     },
-    { name: 'CSS', link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg' },
+    {
+      name: 'CSS',
+      link: '/static/images/project/techStack/brand-aws.svg',
+    },
     {
       name: 'Bootstrap',
-      link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg',
+      link: '/static/images/project/techStack/brand-aws.svg',
     },
     {
       name: 'Redux',
-      link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg',
+      link: '/static/images/project/techStack/brand-redux.svg',
     },
 
     {
       name: 'Sass',
-      link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg',
+      link: '/static/images/project/techStack/brand-sass.svg',
     },
 
     {
       name: 'Javascript',
-      link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+      link: '/static/images/project/techStack/brand-javascript.svg',
     },
     {
       name: 'Tailwind CSS',
-      link: 'https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg',
+      link: '/static/images/project/techStack/brand-tailwind.svg',
     },
     {
       name: 'React',
-      link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
+      link: '/static/images/project/techStack/brand-react.svg',
     },
   ],
   backend: [
     {
       name: 'Express',
-      link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg',
+      link: '/static/images/project/techStack/brand-aws.svg',
     },
     {
       name: 'NodeJS',
-      link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg',
+      link: '/static/images/project/techStack/brand-nodejs.svg',
     },
     {
       name: 'MySQl',
-      link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg',
+      link: '/static/images/project/techStack/brand-mysql.svg',
     },
     {
       name: 'Mongo DB',
-      link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg',
+      link: '/static/images/project/techStack/brand-mongodb.svg',
     },
     {
       name: 'Heroku',
-      link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg',
+      link: '/static/images/project/techStack/brand-aws.svg',
     },
   ],
   mobile: [
     {
       name: 'React Native',
-      link: 'https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png',
+      link: '/static/images/project/techStack/brand-react.svg',
     },
   ],
   others: [
-    { name: 'Postman', link: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg' },
-    { name: 'Git', link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg' },
-    { name: 'Firebase', link: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg' },
+    {
+      name: 'Postman',
+      link: '/static/images/project/techStack/brand-aws.svg',
+    },
+    {
+      name: 'Git',
+      link: '/static/images/project/techStack/brand-github.svg',
+    },
+    {
+      name: 'Firebase',
+      link: '/static/images/project/techStack/brand-firebase.svg',
+    },
   ],
 };
