@@ -76,7 +76,7 @@ export default function About() {
           <div className="md:w-3/5 space-y-8">
             {Object.keys(techStack).map((key: string) => (
               <div className="flex flex-col md:flex-row">
-                <h3 className="md:w-1/3 font-light text-sm">{key}</h3>
+                <h3 className="md:w-1/3 text-l mb-4 font-medium md:mb-0">{key}</h3>
                 <div className="md:w-2/3">
                   <div className="flex flex-wrap flex justify-between ">
                     {techStack[key].map((el: { name: string; link?: string }) => (
