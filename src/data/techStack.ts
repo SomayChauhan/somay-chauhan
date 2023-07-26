@@ -2,7 +2,6 @@ export const techStack: { [key: string]: { name: string; link?: string }[] } = {
   frontend: [
     {
       name: 'TypeScript',
-
       link: '/static/images/techStack/brand-typescript.svg',
     },
     {
@@ -11,11 +10,11 @@ export const techStack: { [key: string]: { name: string; link?: string }[] } = {
     },
     {
       name: 'CSS',
-      link: '/static/images/techStack/brand-aws.svg',
+      link: '/static/images/techStack/brand-css.svg',
     },
     {
       name: 'Bootstrap',
-      link: '/static/images/techStack/brand-aws.svg',
+      link: '/static/images/techStack/brand-bootstrap.svg',
     },
     {
       name: 'Redux',
@@ -39,6 +38,10 @@ export const techStack: { [key: string]: { name: string; link?: string }[] } = {
       name: 'React',
       link: '/static/images/techStack/brand-react.svg',
     },
+    {
+      name: 'Next-js',
+      link: '/static/images/techStack/brand-next-js.svg',
+    },
   ],
   backend: [
     {
@@ -59,7 +62,23 @@ export const techStack: { [key: string]: { name: string; link?: string }[] } = {
     },
     {
       name: 'Heroku',
-      link: '/static/images/techStack/brand-aws.svg',
+      link: '/static/images/techStack/brand-heroku.svg',
+    },
+    {
+      name: 'AWS-Cognito',
+      link: '/static/images/techStack/brand-aws-cognito.svg',
+    },
+    {
+      name: 'Firebase',
+      link: '/static/images/techStack/brand-firebase.svg',
+    },
+    {
+      name: 'Nest-Js',
+      link: '/static/images/techStack/brand-nestjs.svg',
+    },
+    {
+      name: 'Serverless',
+      link: '/static/images/techStack/brand-serverless.svg',
     },
   ],
   mobile: [
@@ -71,15 +90,11 @@ export const techStack: { [key: string]: { name: string; link?: string }[] } = {
   others: [
     {
       name: 'Postman',
-      link: '/static/images/techStack/brand-aws.svg',
+      link: '/static/images/techStack/brand-postman.svg',
     },
     {
       name: 'Git',
       link: '/static/images/techStack/brand-github.svg',
-    },
-    {
-      name: 'Firebase',
-      link: '/static/images/techStack/brand-firebase.svg',
     },
   ],
 };
