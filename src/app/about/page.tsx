@@ -32,22 +32,21 @@ export default function About() {
           </div>
           <section className="text-center text-base md:text-start mx-3 col-span-2 md:col-span-1 my-auto">
             <div className="block md:hidden">
-              <p className="text-3xl font-serif font-bold mb-1">Hello there,</p>
-              <p className="text-3xl font-serif font-bold mb-6">
+              <p className="text-3xl font-bold mb-1">Hello there,</p>
+              <p className="text-3xl font-bold mb-6">
                 I'm Somay <span className="animate-wave">👋</span>
               </p>
             </div>
-            <p className="hidden md:block text-3xl font-serif font-bold mb-6">
+            <p className="hidden md:block text-3xl font-bold mb-6">
               Hello there, I'm Somay
               <span className="animate-wave">👋</span>
             </p>
-            <p className="mb-4 text-sm">
-              hailing from a small village right in the lap of the mighty Himalayas, with Shimla
-              being our nearest town, a charming place built by the British during their time in
-              India. So, picture this: me, surrounded by stunning landscapes, sipping Tea, and
-              coding away like a boss.
+            <p className="mb-4 text-xs font-light tracking-wide">
+              A fullstack web-developer/freelancer from India. I belong to a small village right in
+              the lap of the Mighty Himalayas. So, picture this: me, surrounded by snow covered
+              peaks, sipping Tea, and working from my small wodden hideout.
             </p>
-            <p className="mb-4 text-sm">
+            <p className="mb-4 text-xs font-light tracking-wide">
               You know what blew my mind? The internet! It's like a magical genie that grants you
               the power to work from wherever and whenever you please. So, I thought, "Why be stuck
               in an office cubicle when I can be coding with a view?" I decided to shake things up
@@ -55,11 +54,11 @@ export default function About() {
               freelancing adventure, taking on projects while enjoying the serenity of my Himalayan
               hideout. Web development meets mountain vibes - the perfect combo!
             </p>
-            <p className="mb-4 text-sm">
-              If you're wondering how I pull off this nomadic web dev life, well, it's all thanks to
-              the Internet. I can connect with clients, collaborate with teams, and build awesome
-              websites without even having to leave my cozy little village. So, here's to the
-              internet, the ultimate enabler of my freelancing dreams! Cheers!
+            <p className="mb-4 text-xs font-light tracking-wide">
+              When I'm not busy coding, you can either find me exploring the breathtaking trails of
+              the Himalayas, going on adventurous hikes or out there in my apple orchard, lending a
+              hand and enjoying the simple pleasures of life. It's a refreshing break from the
+              digital world!
             </p>
           </section>
         </div>
