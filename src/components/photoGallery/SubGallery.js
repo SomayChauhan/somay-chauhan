@@ -6,11 +6,6 @@ import { useState } from 'react';
 const SubGallery = (props) => {
 
   const [data, set_data] = useState(photoGalleryData)
-
-
-
-
-
   return (
     <>
       {data?.map((image, index) => {
