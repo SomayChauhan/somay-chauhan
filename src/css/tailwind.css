@@ -72,3 +72,11 @@ input:-webkit-autofill:focus {
 .introText {
   transition: opacity 0.4s;
 }
+
+.photo-container:hover .bg-black {
+  opacity: 0.8; /* Adjust the opacity as per your preference */
+}
+
+.photo-container:hover h2 {
+  opacity: 1;
+}

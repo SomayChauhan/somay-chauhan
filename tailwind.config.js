@@ -16,6 +16,10 @@ module.exports = {
         0.75: '0.1875rem',
         'content-sm': 'calc(100vh - 4.5rem)',
         content: 'calc(100vh - 4rem)',
+        max1: "22rem",
+        max12: "28rem",
+        max2: '26rem',
+        max3: '30rem',
       },
       lineHeight: {
         11: '2.75rem',
@@ -232,4 +236,4 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('tailwind-scrollbar')({ nocompatible: true }),
   ],
-}
+};
