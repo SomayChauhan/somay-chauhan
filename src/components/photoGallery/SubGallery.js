@@ -36,7 +36,7 @@ const SubGallery = (props) => {
               alt="projectImage"
               objectFit='cover'
               className="z-50"
-              priority={true}
+              priority={index < 4}
 
             />
             {/* <div
