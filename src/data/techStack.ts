@@ -20,7 +20,6 @@ export const techStack: { [key: string]: { name: string; link?: string }[] } = {
       name: 'Redux',
       link: '/static/images/techStack/brand-redux.svg',
     },
-
     {
       name: 'Sass',
       link: '/static/images/techStack/brand-sass.svg',

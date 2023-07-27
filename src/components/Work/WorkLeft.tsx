@@ -12,7 +12,7 @@ export function WorkLeft({ children, progress }: WorkProps) {
       className="flex flex-col items-center justify-center text-2xl lg:h-auto lg:text-3xl"
       style={{ transform: `translateY(${translateY}px)` }}
     >
-      <div className="leading-10 text-white">{children}</div>
+      <div className="mt-12 md:mt-0 leading-10 text-white">{children}</div>
     </div>
   );
 }

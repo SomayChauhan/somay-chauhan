@@ -2,7 +2,7 @@ export type WorkTile = {
   title: string;
   description: string;
   image: {
-    src: string;
+    src?: string;
     width: number;
     height: number;
   };
@@ -10,38 +10,38 @@ export type WorkTile = {
 
 export const workTiles: WorkTile[] = [
   {
-    description: `Here are things`,
+    description: `Here are some things`,
     title: `I've worked on`,
     image: {
-      src: '/static/images/aphex-apps.webp',
+      // src: '/static/images/aphex-apps.webp',
       width: 600,
       height: 770,
     },
   },
   {
     description: 'I built',
-    title: 'Aphex Field',
+    title: 'HeyLime Web',
     image: {
-      src: '/static/images/field-app.webp',
+      src: '/static/images/projects/heylime/heylime-web.png',
       width: 600,
       height: 554,
     },
   },
   {
-    description: `I maintained`,
-    title: 'Aphex Planner',
+    description: `I built`,
+    title: 'HeyLime Mobile App',
     image: {
-      src: '/static/images/planner-app.webp',
+      src: '/static/images/projects/heylime/heylime-app.png',
       width: 600,
       height: 717,
     },
   },
   {
     description: `I built`,
-    title: 'Aphex Publication',
+    title: 'HeyLime Backend',
     image: {
-      src: '/static/images/publication-app.webp',
-      width: 600,
+      src: '/static/images/projects/heylime/final-result.png',
+      width: 800,
       height: 717,
     },
   },
