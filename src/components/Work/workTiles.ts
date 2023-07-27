@@ -11,7 +11,7 @@ export type WorkTile = {
 export const workTiles: WorkTile[] = [
   {
     description: `Here are some things`,
-    title: `I've worked on`,
+    title: `I'am most proud of`,
     image: {
       // src: '/static/images/aphex-apps.webp',
       width: 600,
