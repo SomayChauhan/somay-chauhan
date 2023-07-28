@@ -1,13 +1,11 @@
-'use client';
+import TechStackPill from '@/components/TechStackPill';
 import MainLayout from '@/components/layouts/MainLayout';
 import { techStack } from '@/data/techStack';
-import { motion } from 'framer-motion';
-import Image from 'next/image';
 
-// export const metadata = {
-//   title: 'About - Dale Larroder',
-//   description: 'About me - Dale Larroder',
-// };
+export const metadata = {
+  title: 'Resume - Somay Chauhan',
+  description: 'Resume - Somay Chauhan',
+};
 
 export default function About() {
   return (
@@ -75,10 +73,10 @@ export default function About() {
           <h1 className="md:w-2/5 text-xl font-semibold">Skills & Expertise</h1>
           <div className="md:w-3/5 space-y-8">
             {Object.keys(techStack).map((key: string) => (
-              <div className="flex flex-col md:flex-row">
+              <div key={key} className="flex flex-col md:flex-row">
                 <h3 className="md:w-1/3 text-l mb-4 font-medium md:mb-0">{key}</h3>
                 <div className="md:w-2/3">
-                  <div className="flex flex-wrap flex justify-between ">
+                  {/* <div className="flex flex-wrap flex justify-between ">
                     {techStack[key].map((el: { name: string; link?: string }) => (
                       <motion.div
                         initial="hidden"
@@ -99,7 +97,8 @@ export default function About() {
                         <h4 className="text-md ml-4 dark:text-black">{el.name}</h4>
                       </motion.div>
                     ))}
-                  </div>
+                  </div> */}
+                  <TechStackPill techStackArr={techStack[key]} />
                 </div>
               </div>
             ))}
