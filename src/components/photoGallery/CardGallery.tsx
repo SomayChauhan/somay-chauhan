@@ -10,7 +10,7 @@ const CardGallery = () => {
           <div className="relative max-w-max cursor-pointer">
             <div className="relative flex">
               <Image
-                src="/static/images/photo-gallery/cover_image.jpg"
+                src="/static/images/photo-gallery/cover_image.webp"
                 alt="projectImage"
                 objectFit="cover"
                 priority={true}
