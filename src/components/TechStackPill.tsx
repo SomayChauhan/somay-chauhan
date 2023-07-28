@@ -6,7 +6,7 @@ import React from 'react';
 
 const TechStackPill = ({ techStackArr }: { techStackArr: techStackItem[] }) => {
   return (
-    <div className="flex flex-wrap flex justify-between ">
+    <div className="flex flex-wrap flex justify-between text-xs">
       {techStackArr.map((el: { name: string; link?: string }) => (
         <motion.div
           key={el.name}
