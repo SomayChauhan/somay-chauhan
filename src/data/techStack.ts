@@ -50,6 +50,10 @@ export const techStack: { [key: string]: techStackItem[] } = {
       link: '/static/images/techStack/brand-aws.svg',
     },
     {
+      name: 'AWS',
+      link: '/static/images/techStack/brand-aws.svg',
+    },
+    {
       name: 'NodeJS',
       link: '/static/images/techStack/brand-nodejs.svg',
     },
@@ -80,6 +84,26 @@ export const techStack: { [key: string]: techStackItem[] } = {
     {
       name: 'Serverless',
       link: '/static/images/techStack/brand-serverless.svg',
+    },
+    {
+      name: 'Websocket',
+      link: '/static/images/techStack/brand-websocket.svg',
+    },
+    {
+      name: 'Cloudfront',
+      link: '/static/images/techStack/brand-cloudfront.svg',
+    },
+    {
+      name: 'Cloudwatch',
+      link: '/static/images/techStack/brand-cloudwatch.svg',
+    },
+    {
+      name: 'DynaomoDb',
+      link: '/static/images/techStack/brand-dynamodb.svg',
+    },
+    {
+      name: 'S3',
+      link: '/static/images/techStack/brand-s3.svg',
     },
   ],
   mobile: [
