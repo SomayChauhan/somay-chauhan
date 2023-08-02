@@ -1,4 +1,4 @@
-export type techStackItem = { name: string; link?: string }
+export type techStackItem = { name: string; link: string };
 
 export const techStack: { [key: string]: techStackItem[] } = {
   frontend: [

@@ -7,7 +7,7 @@ import React from 'react';
 const TechStackPill = ({ techStackArr }: { techStackArr: techStackItem[] }) => {
   return (
     <div className="flex flex-wrap flex justify-between text-xs">
-      {techStackArr.map((el: { name: string; link?: string }) => (
+      {techStackArr.map((el) => (
         <motion.div
           key={el.name}
           initial="hidden"
@@ -24,7 +24,7 @@ const TechStackPill = ({ techStackArr }: { techStackArr: techStackItem[] }) => {
           }}
           className="bg-gray-50 p-4 mb-4 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
         >
-          <Image alt="" src={el?.link} height={20} width={20} />
+          <Image alt="" src={el.link} height={20} width={20} />
           <h4 className="text-md ml-4 dark:text-black">{el.name}</h4>
         </motion.div>
       ))}
