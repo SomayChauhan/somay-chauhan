@@ -34,11 +34,11 @@ export default function About() {
             <div className="block md:hidden">
               <p className="text-3xl font-bold mb-1">Hello there,</p>
               <p className="text-3xl font-bold mb-6">
-                I'm Somay <span className="animate-wave">👋</span>
+                I&apos;m Somay <span className="animate-wave">👋</span>
               </p>
             </div>
             <p className="hidden md:block text-3xl font-bold mb-6">
-              Hello there, I'm Somay
+              Hello there, I&apos;m Somay
               <span className="animate-wave">👋</span>
             </p>
             <p className="mb-4 text-xs font-light tracking-wide">
@@ -47,18 +47,18 @@ export default function About() {
               peaks, sipping Tea, and working from my small wodden hideout.
             </p>
             <p className="mb-4 text-xs font-light tracking-wide">
-              You know what blew my mind? The internet! It's like a magical genie that grants you
-              the power to work from wherever and whenever you please. So, I thought, "Why be stuck
-              in an office cubicle when I can be coding with a view?" I decided to shake things up
-              and ditched my boring ol' 9-to-5 job as a web developer. Now, I'm on this wild
-              freelancing adventure, taking on projects while enjoying the serenity of my Himalayan
-              hideout. Web development meets mountain vibes - the perfect combo!
+              You know what blew my mind? The internet! It&apos;s like a magical genie that grants
+              you the power to work from wherever and whenever you please. So, I thought, &quot;Why
+              be stuck in an office cubicle when I can be coding with a view?&quot; I decided to
+              shake things up and ditched my boring 9-to-5 job as a web developer. Now, I&apos;m on
+              this wild freelancing adventure, taking on projects while enjoying the serenity of my
+              Himalayan hideout. Web development meets mountain vibes - the perfect combo!
             </p>
             <p className="mb-4 text-xs font-light tracking-wide">
-              When I'm not busy coding, you can either find me exploring the breathtaking trails of
-              the Himalayas, going on adventurous hikes or out there in my apple orchard, lending a
-              hand and enjoying the simple pleasures of life. It's a refreshing break from the
-              digital world!
+              When I&apos;m not busy coding, you can either find me exploring the breathtaking
+              trails of the Himalayas, going on adventurous hikes or out there in my apple orchard,
+              lending a hand and enjoying the simple pleasures of life. It&apos;s a refreshing break
+              from the digital world!
             </p>
           </section>
         </div>

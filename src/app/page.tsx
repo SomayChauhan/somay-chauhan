@@ -8,7 +8,7 @@ export default function Page() {
     <ScrollProvider>
       <Hero />
       <Intro />
-      <Works />
+      {/* <Works /> */}
     </ScrollProvider>
   );
 }

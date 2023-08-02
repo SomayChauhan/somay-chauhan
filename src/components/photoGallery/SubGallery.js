@@ -22,6 +22,7 @@ const SubGallery = (props) => {
 
         return (
           <div
+            key={image.url}
             className={`sticky top-12 max-w-3xl transform rounded-sm bg-gray-200 p-1 shadow-xl first:top-12 ${rotate[random]} align grid justify-items-center md:p-2`}
           >
             <Image
@@ -40,11 +41,11 @@ const SubGallery = (props) => {
               {image.name}
             </div> */}
           </div>
-        );
+        )
       })}
     </>
-  );
-};
+  )
+}
 
 export default SubGallery;
 

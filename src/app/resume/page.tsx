@@ -57,12 +57,12 @@ export default function About() {
               <h3 className="md:w-1/3 font-light text-sm">2016 - 2020</h3>
               <div className="md:w-2/3">
                 <h2 className="text-l mb-4 font-medium md:mb-0">
-                  Bachelor's Degree in Information Technology
+                  Bachelor&apos;s Degree in Information Technology
                 </h2>
                 <p className="font-light text-xs tracking-wide">
-                  I received my Bachelor's Degree in Information Technology from Panjab University.
-                  During my studies, I gained a strong foundation in programming and software
-                  development.
+                  I received my Bachelor&apos;s Degree in Information Technology from Panjab
+                  University. During my studies, I gained a strong foundation in programming and
+                  software development.
                 </p>
               </div>
             </div>
