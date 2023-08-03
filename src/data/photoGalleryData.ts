@@ -21,7 +21,7 @@ export const photoGalleryData: {
   },
   {
     name: '19',
-    url: '/static/images/photo-gallery/19.jpg',
+    url: '/static/images/photo-gallery/19.webp',
     description: '',
     height: 200,
     width: 200,
@@ -119,7 +119,7 @@ export const photoGalleryData: {
   },
   {
     name: '7',
-    url: '/static/images/photo-gallery/7.jpg',
+    url: '/static/images/photo-gallery/7.webp',
     description: '',
     height: 400,
     width: 400,
