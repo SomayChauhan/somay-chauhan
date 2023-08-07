@@ -22,7 +22,7 @@ const TechStackPill = ({ techStackArr }: { techStackArr: techStackItem[] }) => {
             },
             hidden: { opacity: 1, y: 80 },
           }}
-          className="bg-gray-50 p-4 mb-4 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
+          className="bg-gray-50 p-4 mb-4 rounded-lg flex items-center hover:scale-125 md:w-48 w-40"
         >
           <Image alt="" src={el.link} height={20} width={20} />
           <h4 className="text-md ml-4 dark:text-black">{el.name}</h4>

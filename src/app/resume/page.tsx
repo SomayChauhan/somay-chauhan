@@ -42,7 +42,7 @@ export default function About() {
               <div className="md:w-2/3">
                 <h2 className="text-l mb-4 font-medium md:mb-0">Intern</h2>
                 <p className="font-light text-xs tracking-wide">
-                  As a web development intern at ABC Company, I assisted the development team with
+                  As a web development intern at Innow8apps, I assisted the development team with
                   various tasks, including website maintenance and bug fixing.
                 </p>
               </div>
