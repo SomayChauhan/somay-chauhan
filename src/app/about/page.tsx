@@ -42,17 +42,8 @@ export default function About() {
               <span className="animate-wave">👋</span>
             </p>
             <p className="mb-4 text-xs font-light tracking-wide">
-              A fullstack web-developer/freelancer from India. I belong to a small village right in
-              the lap of the Mighty Himalayas. So, picture this: me, surrounded by snow covered
-              peaks, sipping Tea, and working from my small wodden hideout.
-            </p>
-            <p className="mb-4 text-xs font-light tracking-wide">
-              You know what blew my mind? The internet! It&apos;s like a magical genie that grants
-              you the power to work from wherever and whenever you please. So, I thought, &quot;Why
-              be stuck in an office cubicle when I can be coding with a view?&quot; I decided to
-              shake things up and ditched my boring 9-to-5 job as a web developer. Now, I&apos;m on
-              this wild freelancing adventure, taking on projects while enjoying the serenity of my
-              Himalayan hideout. Web development meets mountain vibes - the perfect combo!
+              A fullstack web-developer from India. I&apos;m from a small village, surrounded by
+              snow covered peaks, right in the lap of the Mighty Himalayas.
             </p>
             <p className="mb-4 text-xs font-light tracking-wide">
               When I&apos;m not busy coding, you can either find me exploring the breathtaking
