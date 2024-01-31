@@ -13,9 +13,8 @@ export default function Hero(): ReactElement {
   const ref = useRef<HTMLHeadingElement>(null);
   const { scrollY } = useContext(ScrollContext);
   const { typedSuperpower, phase } = useTypedSuperpower([
-    "Freelancer",
-    "Full Stack Web Developer",
-    "Mobile Developer",
+    'Full Stack Web Developer',
+    'Mobile Developer',
   ]);
 
   let progress = 0;

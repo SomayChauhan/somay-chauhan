@@ -17,18 +17,16 @@ export default function About() {
           <h1 className="md:w-2/5 text-xl font-semibold">Work Experience</h1>
           <div className="md:w-3/5 space-y-8">
             <div className="flex flex-col md:flex-row">
-              <h3 className="md:w-1/3 font-light text-sm">Jan 2023 - Present</h3>
+              <h3 className="md:w-1/3 font-light text-sm">Jul 2023 - Present</h3>
               <div className="md:w-2/3">
-                <h2 className="text-l mb-4 font-medium md:mb-0">Freelance Web Developer</h2>
+                <h2 className="text-l mb-4 font-medium md:mb-0">Opensource</h2>
                 <p className="font-light text-xs tracking-wide">
-                  As a freelance web developer, I have helped numerous clients turn their ideas into
-                  fully-functional websites and apps. I specialize in creating professional and
-                  cost-effective solutions that meet my clients unique needs.
+                  Learning and contributing to various Opensource projects
                 </p>
               </div>
             </div>
             <div className="flex flex-col md:flex-row">
-              <h3 className="md:w-1/3 font-light text-sm">Jul 2020 - Dec 2022</h3>
+              <h3 className="md:w-1/3 font-light text-sm">Jul 2020 - Jul 2023</h3>
               <div className="md:w-2/3">
                 <h2 className="text-l mb-4 font-medium md:mb-0">Web Developer at Innow8apps</h2>
                 <p className="font-light text-xs tracking-wide">
